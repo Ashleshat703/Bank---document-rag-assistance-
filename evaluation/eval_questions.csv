@@ -1,0 +1,24 @@
+question_id,question,is_answerable,policy_domain,expected_filename,expected_page,ground_truth_keyword
+Q01,"What is the mandatory threshold for filing a Suspicious Activity Report (SAR) when a suspect is identified?",1,Anti-Money Laundering,AML_Policy.pdf,2,$5000|suspicious activity report
+Q02,"What is the minimum record retention period for Currency Transaction Reports (CTRs)?",1,Anti-Money Laundering,AML_Policy.pdf,3,5 years|retention
+Q03,"Who must approve the onboarding of Politically Exposed Persons (PEPs)?",1,Anti-Money Laundering,AML_Policy.pdf,4,Senior Compliance Officer|Enhanced Due Diligence
+Q04,"What is the maximum single-signature loan approval authority for a Branch Manager?",1,Credit & Lending,Credit_Policy.pdf,1,$50000|approval authority
+Q05,"What is the maximum allowed Debt-to-Income (DTI) ratio for conventional residential mortgages?",1,Credit & Lending,Credit_Policy.pdf,3,43%|debt-to-income
+Q06,"How frequently must commercial credit lines exceeding $250,000 undergo formal credit review?",1,Credit & Lending,Credit_Policy.pdf,4,annually|credit review
+Q07,"What documents are accepted as primary identification for individual KYC account opening?",1,Customer KYC & Accounts,KYC_Policy.pdf,1,government-issued photo ID|passport
+Q08,"What ownership percentage triggers beneficial ownership identification for legal entity accounts?",1,Customer KYC & Accounts,KYC_Policy.pdf,2,25%|beneficial ownership
+Q09,"After how many months of customer inactivity is a retail deposit account designated as dormant?",1,Customer KYC & Accounts,KYC_Policy.pdf,4,24 months|dormant
+Q10,"At what dollar amount do outgoing wire transfers require dual authorization?",1,Payments & Wire Transfers,Wire_Transfer_Policy.pdf,1,$100000|dual authorization
+Q11,"What is the standard daily ATM cash withdrawal limit per debit card?",1,Payments & Wire Transfers,Wire_Transfer_Policy.pdf,2,$1000|withdrawal limit
+Q12,"What is the daily cutoff time for same-day domestic Fedwire execution?",1,Payments & Wire Transfers,Wire_Transfer_Policy.pdf,3,4:30 PM|cutoff
+Q13,"What is the maximum daily domestic per diem meal allowance for business travel?",1,Travel & Expense,Expense_Policy.pdf,1,$75|per diem
+Q14,"What is the nightly domestic hotel lodging limit allowed without VP pre-approval?",1,Travel & Expense,Expense_Policy.pdf,2,$250|lodging
+Q15,"Within how many days must business expense reports be submitted following completion of travel?",1,Travel & Expense,Expense_Policy.pdf,3,30 calendar days|expense report
+Q16,"What is the cafeteria recipe for chocolate chip cookies?",0,Out of Domain,None,0,None
+Q17,"What are the telemetry guidance equations for the SpaceX Falcon Heavy rocket booster?",0,Out of Domain,None,0,None
+Q18,"Who won the 1998 FIFA World Cup final in Paris?",0,Out of Domain,None,0,None
+Q19,"What is the clinical dosage guidelines for prescribing amlodipine for adult hypertension?",0,Out of Domain,None,0,None
+Q20,"What tools and fasteners are required to assemble an IKEA Billy bookcase?",0,Out of Domain,None,0,None
+Q21,"What is the private satellite frequency used by the CEO personal yacht?",0,Out of Domain,None,0,None
+Q22,"How does quantum entanglement verify subatomic spin in semiconductor lattices?",0,Out of Domain,None,0,None
+Q23,"What are the official scoring regulations and stone delivery rules in Olympic curling?",0,Out of Domain,None,0,None
